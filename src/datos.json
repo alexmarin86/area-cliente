@@ -1,0 +1,51 @@
+[
+	{
+		"refArt": "0001A",
+		"codigoEan": "6642851",
+		"nombreArt": "Sofá de cuero",
+		"stock": 20,
+		"prodTransito": "Sí"
+	},
+	{
+		"refArt": "0015C",
+		"codigoEan": "6516516",
+		"nombreArt": "Sillón masaje",
+		"stock": "40",
+		"prodTransito": "No"
+	},
+	{
+		"refArt": "0008A",
+		"codigoEan": "95162162",
+		"nombreArt": "Cama individual",
+		"stock": "18",
+		"prodTransito": "No"
+	},
+	{
+		"refArt": "0006C",
+		"codigoEan": "3216161",
+		"nombreArt": "Chaiselongue",
+		"stock": "9",
+		"prodTransito": "Sí"
+	},
+	{
+		"refArt": "0011A",
+		"codigoEan": "545158",
+		"nombreArt": "Silla exterior",
+		"stock": "0",
+		"prodTransito": "Sí"
+	},
+	{
+		"refArt": "0002F",
+		"codigoEan": "65195126",
+		"nombreArt": "Mesa comedor",
+		"stock": "32",
+		"prodTransito": "Sí"
+	},
+	{
+		"refArt": "0012E",
+		"codigoEan": "3219519921",
+		"nombreArt": "Sofá balcón",
+		"stock": "4",
+		"prodTransito": "No"
+	}
+]

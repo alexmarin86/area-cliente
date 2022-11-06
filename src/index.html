@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="/dist/output.css" rel="stylesheet" />
+		<script src="./app.js" defer></script>
+		<title>Área cliente</title>
+	</head>
+	<body>
+		<h1 class="text-3xl text-white bg-red-500 py-10 text-center">
+			Área de cliente
+		</h1>
+		<form class="flex flex-row mt-4">
+			<div class="flex flex-row justify-center items-center gap-3 w-1/3">
+				<label for="buscar" class="text-sm text-gray-600"
+					>Introduce tu búsqueda</label
+				>
+				<input
+					type="search"
+					name="buscar"
+					id="buscar"
+					class="p-2 border-slate-400 border-2"
+				/>
+			</div>
+			<div class="flex flex-row justify-center items-center gap-3 w-1/3">
+				<label for="cantidad" class="text-sm text-gray-600"
+					>Introduce cantidad</label
+				>
+				<input
+					type="number"
+					name="cantidad"
+					id="cantidad"
+					class="p-2 border-slate-400 border-2"
+					min="0"
+					max="20"
+				/>
+			</div>
+			<button
+				type="submit"
+				class="enviar px-4 py-3 bg-red-600 hover:bg-red-500 rounded text-white"
+			>
+				Buscar
+			</button>
+		</form>
+		<table class="border-collapse border-stone-500 border-2 mt-8 mx-auto">
+			<tr>
+				<th class="border-2 p-1">Referencia Art</th>
+				<th class="border-2 p-1">Código EAN</th>
+				<th class="border-2 p-1">Nombre Art</th>
+				<th class="border-2 p-1">Stock</th>
+				<th class="border-2 p-1">Producción y tránsito</th>
+			</tr>
+		</table>
+	</body>
+</html>
