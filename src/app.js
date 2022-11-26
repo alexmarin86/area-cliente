@@ -6,7 +6,7 @@ const elemTabla = document.querySelector('table')
 
 const obtenerDatos = async () => {
 	try {
-		const response = await fetch('./datos.json')
+		const response = await fetch('./datos.json', { cache: 'no-store' })
 		return await response.json()
 	} catch (error) {
 		console.log(error)
